@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'; // Fazendo a importação
 
 export const GlobalStyle = createGlobalStyle`
   :root{ // Criando as variáveis globais das cores.
-    --background: #fof2f5;
+    --background: #F0F2F5;
     --red: #E52E4D;
     --green: #33CC95;
     --blue: #5429CC;
@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     --text-title: #363F5F;
     --text-body: #969CB3;
 
-    --background: #FOF2F5;
     --shape: #FFFFFF;
   }  
 
