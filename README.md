@@ -10,7 +10,7 @@
 
 <hr>
 
-![Tela Principal](images/01.png)
+![Tela Principal](images/01.PNG)
 
 <hr>
 
