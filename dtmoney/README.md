@@ -21,3 +21,19 @@
     yarn add @types/styled-components -D
 
 <hr>
+
+### Agora para usar uma api fake em nossa aplicação para assim trabalhar sem ter um backend pronto vamos usar o MIRAGEJS
+
+    yarn add miragejs
+
+- Referências: https://miragejs.com/
+
+<hr>
+
+### Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quando no Node.js.
+
+    yarn add axios
+
+- Referências: https://blog.rocketseat.com.br/axios-um-cliente-http-full-stack/
+
+<hr>
