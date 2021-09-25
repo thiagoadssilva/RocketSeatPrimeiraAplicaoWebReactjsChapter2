@@ -6,13 +6,11 @@
 
 ### Dentro do <b>README</b> da pasta do projeto está tudo que foi ou está sendo usando:
 
-    https://github.com/thiagoadssilva/youtubeCloneMateiralUI/blob/main/frontend/README.md
+    https://github.com/thiagoadssilva/RocketSeatPrimeiraAplicaoWebReactjsChapter2/blob/main/dtmoney/README.md
 
 <hr>
 
-## <b>Inicio</b> do desenvolvimento do clone, parte do header com a lateral
-
-![Tela Principal](images/headerLateral.png)
+![Tela Principal](images/01.png)
 
 <hr>
 
