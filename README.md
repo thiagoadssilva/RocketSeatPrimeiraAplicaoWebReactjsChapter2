@@ -6,11 +6,11 @@
 
 ### Dentro do <b>README</b> da pasta do projeto está tudo que foi ou está sendo usando:
 
-    https://github.com/thiagoadssilva/RocketSeatPrimeiraAplicaoWebReactjsChapter2/blob/main/dtmoney/README.md
+https://github.com/thiagoadssilva/RocketSeatPrimeiraAplicaoWebReactjsChapter2/blob/main/dtmoney/README.md
 
 <hr>
 
-![Tela Principal](images/01.png)
+![Tela Principal](images/01.PNG)
 
 <hr>
 
