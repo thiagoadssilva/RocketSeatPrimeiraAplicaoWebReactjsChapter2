@@ -51,3 +51,11 @@
     yarn add @types/react-modal -D
 
 <hr>
+
+### É um conjunto de ferramentas leve para escrever estilos em JavaScript. Ele tem muitas funções utilitárias excelentes para ajudá-lo a escrever estilos em JavaScript com facilidade.
+
+    yarn add polished
+
+- Referências: https://polished.js.org/
+
+<hr>
