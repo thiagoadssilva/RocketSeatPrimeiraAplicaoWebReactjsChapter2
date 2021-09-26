@@ -14,4 +14,8 @@ https://github.com/thiagoadssilva/RocketSeatPrimeiraAplicaoWebReactjsChapter2/bl
 
 <hr>
 
+![Tela Principal](images/02.PNG)
+
+<hr>
+
 <img src="src/assets/watchme.gif" />
