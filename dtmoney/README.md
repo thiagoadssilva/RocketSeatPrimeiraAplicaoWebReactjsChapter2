@@ -37,3 +37,17 @@
 - Referências: https://blog.rocketseat.com.br/axios-um-cliente-http-full-stack/
 
 <hr>
+
+### Aqui estamos usando uma das bibliotecas conhecidas como react-modal.
+
+    yarn add react-modal
+
+- Referências: https://github.com/reactjs/react-modal
+
+<hr>
+
+### E para que essa biblioteca do modal funcione de uma maneira amigavel com o typescript vamos adicionar mais uma dependência no ambientede desenvolvimento.
+
+    yarn add @types/react-modal -D
+
+<hr>
