@@ -10,8 +10,18 @@ https://github.com/thiagoadssilva/RocketSeatPrimeiraAplicaoWebReactjsChapter2/bl
 
 <hr>
 
+## Um pequeno video:
+
+<img src="images/ezgif.com-gif-maker.gif" />
+
+<hr>
+
+## Algumas imgens:
+
 ![Tela Principal](images/01.PNG)
 
 <hr>
 
-<img src="src/assets/watchme.gif" />
+![Tela Principal](images/02.PNG)
+
+<hr>
