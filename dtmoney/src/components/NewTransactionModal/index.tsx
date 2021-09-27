@@ -4,8 +4,10 @@ import closeSvg from '../../assets/close.svg';
 
 import incomeSvg from '../../assets/income.svg';
 import outcomeSvg from '../../assets/outcome.svg';
-import { FormEvent, useState } from 'react';
-import { api } from '../../services/api';
+import { FormEvent, useState, useContext } from 'react';
+import { useTransactions } from '../../hooks/useTransactions';
+
+
 
 interface NewTransactionProps{
   isOpen: boolean,
@@ -15,21 +17,28 @@ interface NewTransactionProps{
 Modal.setAppElement('#root');// Por questão de acessibilidade temos que colocar essa linha, pois assim estamos informando para o modal o elemento raiz..
 
 export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionProps){
+  const {createTransaction} = useTransactions();
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState('');
-  const [value, setValue] = useState(0);
+  const [amount, setAmount] = useState(0);
   const [type, setType] = useState('deposit');
 
-  function handleCreateNewTransaction(event: FormEvent){
+  async function handleCreateNewTransaction(event: FormEvent){
     event.preventDefault();
-    const data ={
-      title,
-      value,
-      category,
-      type
-    };
 
-    api.post('/transactions', data)
+    await createTransaction({
+      title,
+      category,
+      amount,
+      type
+    });
+ 
+    setTitle('');
+    setCategory('');
+    setAmount(0);
+    setType('deposit');
+    onRequestClose();
+   
   }
 
   return(
@@ -52,9 +61,9 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionProp
         />
         <input 
           placeholder="Valor" 
-          type="number" 
-          value={value} 
-          onChange={event => setValue(Number(event.target.value))}
+          type="" 
+          value={amount} 
+          onChange={event => setAmount(Number(event.target.value))}
         />
         <TransactionTypeContainer>
           <RadioBox 
